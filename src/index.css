@@ -1,0 +1,59 @@
+body {
+    background-color:rgb(44, 29, 130);
+}
+.app-container {
+    display:grid;
+    margin-left:40px;
+    margin-top:20px;
+    width:100px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: (3, 1fr);
+    
+}
+.Container {
+    width:180px;
+    height:380px;
+    margin-bottom:100px;
+}
+.img {
+    width:180px;
+    height:380px;
+    margin-bottom:20px;
+    
+}
+.Text {
+    display:grid;
+    background-color:rgb(92, 62, 201);
+    color:white;
+    padding-left:15px;
+    letter-spacing:3px;
+    height:60px;
+    width:163px;
+    
+}
+.Title {
+    width:80%;
+    font-size:13px;
+}
+.VoteAverage {
+    text-align:center;
+    width:40px;
+    font-size:12px;
+    color:rgb(174, 174, 174);
+}
+.overview {
+    display:none;
+    padding:10px;
+    font-size:9px;
+    background-color:rgb(0,0,0);
+    height:290px;
+    width:160px;
+}
+.Container:hover  .overview {
+    cursor:pointer;
+    display:flex;
+    margin-top:-464px;
+    color:white;
+    opacity:0.6;
+    height:360px;
+}
